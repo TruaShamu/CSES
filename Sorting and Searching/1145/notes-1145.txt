@@ -1,0 +1,5 @@
+- Use a sliding window, and a set to keep track of seen elements.
+- While the new element is not in the set, expand the window to the right, and add the new element to the set.
+- Otherwise shift the left-bound of the window rightwards.
+
+Print the max window length.
